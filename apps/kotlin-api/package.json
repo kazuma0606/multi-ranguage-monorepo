@@ -1,0 +1,10 @@
+{
+    "name": "kotlin-api",
+    "private": true,
+    "scripts": {
+        "build": "gradle build",
+        "dev": "gradle run",
+        "test": "gradle test",
+        "clean": "gradle clean"
+    }
+}
