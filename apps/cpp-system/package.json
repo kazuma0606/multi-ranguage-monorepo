@@ -1,0 +1,9 @@
+{
+    "name": "cpp-system",
+    "private": true,
+    "scripts": {
+        "build": "cmake -B build && cmake --build build",
+        "dev": "cmake -B build && cmake --build build && .\\build\\cpp-system.exe",
+        "clean": "if exist build rmdir /s /q build"
+    }
+}
