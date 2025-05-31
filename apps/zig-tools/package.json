@@ -1,0 +1,10 @@
+{
+    "name": "zig-tools",
+    "private": true,
+    "scripts": {
+        "build": "set ZIG_GLOBAL_CACHE_DIR=%LOCALAPPDATA%\\zig && zig build --cache-dir .zig-cache",
+        "dev": "set ZIG_GLOBAL_CACHE_DIR=%LOCALAPPDATA%\\zig && zig build run --cache-dir .zig-cache",
+        "test": "set ZIG_GLOBAL_CACHE_DIR=%LOCALAPPDATA%\\zig && zig build test --cache-dir .zig-cache",
+        "clean": "if exist zig-out rmdir /s /q zig-out && if exist .zig-cache rmdir /s /q .zig-cache"
+    }
+}
