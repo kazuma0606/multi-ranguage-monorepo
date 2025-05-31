@@ -1,0 +1,9 @@
+{
+    "name": "go-api",
+    "private": true,
+    "scripts": {
+        "build": "cross-env GOCACHE=C:/Users/yoshi/AppData/Local/go-build go build -o bin/go-api.exe .",
+        "dev": "cross-env GOCACHE=C:/Users/yoshi/AppData/Local/go-build go run .",
+        "test": "cross-env GOCACHE=C:/Users/yoshi/AppData/Local/go-build go test ./..."
+    }
+}

@@ -2,5 +2,15 @@
     "rust-analyzer.linkedProjects": [
         "./apps/rust-api/Cargo.toml"
     ],
-    "rust-analyzer.cargo.buildScripts.enable": true
+    "rust-analyzer.cargo.buildScripts.enable": true,
+    "go.goroot": "",
+    "go.gopath": "",
+    "go.useLanguageServer": true,
+    "[go]": {
+        "editor.insertSpaces": false,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "always"
+        }
+    }
 }
