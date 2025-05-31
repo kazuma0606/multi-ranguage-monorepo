@@ -1,0 +1,11 @@
+{
+    "name": "python-api",
+    "private": true,
+    "scripts": {
+        "build": "echo 'Python build completed'",
+        "dev": "poetry run python src/main.py",
+        "test": "poetry run pytest",
+        "lint": "poetry run black . && poetry run isort .",
+        "install": "poetry install"
+    }
+}
